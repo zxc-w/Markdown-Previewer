@@ -130,5 +130,5 @@ greet("world");
 
 And an image example:
 
-![Markdown Image](https://zxc-w.github.io/markdown-previewer/md.jpeg)
+![Markdown Image](./md.jpeg)
 `);return Fl.jsxs("div",{className:"container",children:[Fl.jsx("textarea",{id:"editor",value:a,onChange:u=>o(u.target.value)}),Fl.jsx("div",{id:"preview",dangerouslySetInnerHTML:{__html:$d.sanitize(ae.parse(a))}})]})}yd.createRoot(document.getElementById("root")).render(Fl.jsx(lf.StrictMode,{children:Fl.jsx(xh,{})}));
