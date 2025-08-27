@@ -1,0 +1,28 @@
+#editor {
+  resize: none;
+}
+
+#preview {
+  background-color: white;
+  color: black;
+}
+
+#editor,
+#preview {
+  flex: 1;
+  height: 100vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+}
