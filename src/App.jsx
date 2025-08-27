@@ -42,7 +42,7 @@ greet("world");
 
 And an image example:
 
-![Markdown Image](https://zxc-w.github.io/markdown-previewer/md.jpeg)
+![Markdown Image](./md.jpeg)
 `);
 
   return (
