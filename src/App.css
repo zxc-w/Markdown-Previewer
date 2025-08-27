@@ -1,5 +1,7 @@
 #editor {
   resize: none;
+  border: none;
+  outline: none;
 }
 
 #preview {
@@ -13,12 +15,30 @@
   height: 100vh;
   overflow: auto;
   box-sizing: border-box;
+  padding: 10px;
+}
+
+#preview pre {
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .container {
   display: flex;
   width: 100vw;
   height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 10px;
+}
+tr {
+  border-bottom: solid 1px black;
 }
 
 @media (max-width: 576px) {

@@ -20,7 +20,15 @@ A link for reference: [Example Site](https://example.com)
 
 > This is a blockquote that calls out an important note.
 
-- List item example
+- And of course there are lists.
+  - Some are bulleted.
+     - With different indentation levels.
+        - That look like this.
+
+
+1. And there are numbered lists too.
+1. Use just 1s if you want!
+1. Last one.
 
 Here is a code block:
 
@@ -34,7 +42,7 @@ greet("world");
 
 And an image example:
 
-![Placeholder Image](/md.jpeg)
+![Markdown Image](https://zxc-w.github.io/markdown-previewer/md.jpeg)
 `);
 
   return (
